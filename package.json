@@ -1,0 +1,31 @@
+{
+  "name": "vehicleiotproject",
+  "version": "1.0.0",
+  "description": "IOT Server for processing the API request",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/San9023/IoTVehicleProject"
+  },
+  "keywords": [
+    "IOT"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/San9023/IoTVehicleProject"
+  },
+  "homepage": "https://github.com/San9023/IoTVehicleProject",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
